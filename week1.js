@@ -2,15 +2,15 @@
 const PI = 3.14;
 let radius = 3;
 
-console.log(PI)
-console.log(radius)
+console.log("PI:", PI); 
+console.log("Radius:", radius); 
 
 
 const one = 1;
 const two = '2';
 
-console.log(one)
-console.log(two)
+console.log("One:", one); 
+console.log("Two:", two);
 
 
                     

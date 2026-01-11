@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: white;
   font-family: "Times New Roman", Times, serif;
+  color: #333; 
 }
 
 .mission-page {
@@ -10,7 +11,6 @@ body {
   margin: 80px auto;
   padding: 0 40px;
   text-align: center;
-  color: #000;
 }
 
 .main-title {
@@ -22,9 +22,16 @@ body {
 
 .sub-title {
   font-size: 22px;
-  font-weight: normal;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   text-transform: uppercase;
+  color: rgb(61, 61, 243);
+}
+
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: #918f8f;
+  margin: 0 auto 40px auto;
 }
 
 .mission-text {
@@ -38,7 +45,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 40px;
   margin-bottom: 40px;
 }
 
@@ -47,9 +54,15 @@ body {
 }
 
 .byui-footer {
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  margin-top: 50px;
   text-align: right;
-  line-height: 1.4;
+}
+
+.byui-logo-img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: auto;
+  justify-content: center;
+
 }
